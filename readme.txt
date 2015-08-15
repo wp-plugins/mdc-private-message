@@ -15,7 +15,7 @@ MDC Private Message is probably the best plugin to create an easy messaging syst
 
 MDC Private Message is probably the best plugin to create an easy messaging system in WordPress.
 
-It helps you create an internal private messaging systems where registered users can send private messages among themselves.
+It helps you create an internal private messaging system where registered users can send private messages among themselves.
 
 
 == Installation ==
