@@ -1,12 +1,13 @@
+
 <?php
 /**
 	Plugin Name: MDC Private Message
 	Plugin URI: http://medhabi.com/items/mdc-private-message/
 	Description: MDC Private Message is probably the best plugin to create an easy messaging system in WordPress. It helps you create an internal private messaging systems where registered users can send private messages among themselves.
 	Author: Nazmul Ahsan
-	Version: 1.0.0
+	Version: 1.0.1
 	Author URI: http://nazmulahsan.me
-	Stable tag: 1.0.0
+	Stable tag: 1.0.1
 	Text Domain: MedhabiDotCom
 */
 
@@ -453,7 +454,7 @@ class MDC_Private_Message{
 											<tbody>
 												<tr valign="top" class="enable_frontend">
 													<th scope="row"><label for="mdc_msg_enable_frontend">Private Message in Frontend</label></th>
-													<td><input type="checkbox" value="1" id="mdc_msg_enable_frontend" name="mdc_msg_enable_frontend" <?php if(get_option('mdc_msg_enable_frontend') == 1){echo "checked";}?> /><span class="mdc_help_icon dashicons dashicons-editor-help" title="Help?"></span><img src="<?php echo plugins_url('images/pro.png', __FILE__);?>"><br /><span class="hidden mdc_help">(Enable private message in front-end with shortcode.)</span></td>
+													<td><input type="checkbox" value="1" id="mdc_msg_enable_frontend" name="mdc_msg_enable_frontend" <?php if(get_option('mdc_msg_enable_frontend') == 1){echo "checked";}?> /><span class="mdc_help_icon dashicons dashicons-editor-help" title="Help?"></span><a href="http://medhabi.com/product/mdc-private-message-pro/" target="_blank"><img src="<?php echo plugins_url('images/pro.png', __FILE__);?>"><small>Upgdare</small></a><br /><span class="hidden mdc_help">(Enable private message in front-end with shortcode.)</span></td>
 												</tr>
 												<tr valign="top" class="enable_frontend_option<?php if(get_option('mdc_msg_enable_frontend') != 1){echo " hidden";}?>">
 													<th scope="row"><label for="mdc_msg_new_msg_page">Page for New Message</label></th>
@@ -496,15 +497,15 @@ class MDC_Private_Message{
 												</tr>
 												<tr valign="top">
 													<th scope="row"><label for="mdc_msg_enable_rich_editor">Enable Rich Editor</label></th>
-													<td><input type="checkbox" value="1" id="mdc_msg_enable_rich_editor" name="mdc_msg_enable_rich_editor" <?php if(get_option('mdc_msg_enable_rich_editor') == 1){echo "checked";}?> /><span class="mdc_help_icon dashicons dashicons-editor-help" title="Help?"></span><img src="<?php echo plugins_url('images/pro.png', __FILE__);?>"><br /><span class="hidden mdc_help">(Enable rich text editor for new message.)</span></td>
+													<td><input type="checkbox" value="1" id="mdc_msg_enable_rich_editor" name="mdc_msg_enable_rich_editor" <?php if(get_option('mdc_msg_enable_rich_editor') == 1){echo "checked";}?> /><span class="mdc_help_icon dashicons dashicons-editor-help" title="Help?"></span><a href="http://medhabi.com/product/mdc-private-message-pro/" target="_blank"><img src="<?php echo plugins_url('images/pro.png', __FILE__);?>"><small>Upgdare</small></a><br /><span class="hidden mdc_help">(Enable rich text editor for new message.)</span></td>
 												</tr>
 												<tr valign="top" class="enable_rich_option">
 													<th scope="row"><label for="mdc_msg_enable_media">Enable Media Button</label></th>
-													<td><input type="checkbox" value="1" id="mdc_msg_enable_media" name="mdc_msg_enable_media" <?php if(get_option('mdc_msg_enable_media') == 1){echo "checked";}?> /><span class="mdc_help_icon dashicons dashicons-editor-help" title="Help?"></span><img src="<?php echo plugins_url('images/pro.png', __FILE__);?>"><br /><span class="hidden mdc_help">(Enable media uploader button and allow users to upload files.)</span></td>
+													<td><input type="checkbox" value="1" id="mdc_msg_enable_media" name="mdc_msg_enable_media" <?php if(get_option('mdc_msg_enable_media') == 1){echo "checked";}?> /><span class="mdc_help_icon dashicons dashicons-editor-help" title="Help?"></span><a href="http://medhabi.com/product/mdc-private-message-pro/" target="_blank"><img src="<?php echo plugins_url('images/pro.png', __FILE__);?>"><small>Upgdare</small></a><br /><span class="hidden mdc_help">(Enable media uploader button and allow users to upload files.)</span></td>
 												</tr>
 												<tr valign="top" class="enable_rich_option">
 													<th scope="row"><label for="mdc_msg_enable_tinymce">Enable TinyMCE</label></th>
-													<td><input type="checkbox" value="1" id="mdc_msg_enable_tinymce" name="mdc_msg_enable_tinymce" <?php if(get_option('mdc_msg_enable_tinymce') == 1){echo "checked";}?> /><span class="mdc_help_icon dashicons dashicons-editor-help" title="Help?"></span><img src="<?php echo plugins_url('images/pro.png', __FILE__);?>"><br /><span class="hidden mdc_help">(If you want to show Sticky Bar, check this.)</span></td>
+													<td><input type="checkbox" value="1" id="mdc_msg_enable_tinymce" name="mdc_msg_enable_tinymce" <?php if(get_option('mdc_msg_enable_tinymce') == 1){echo "checked";}?> /><span class="mdc_help_icon dashicons dashicons-editor-help" title="Help?"></span><a href="http://medhabi.com/product/mdc-private-message-pro/" target="_blank"><img src="<?php echo plugins_url('images/pro.png', __FILE__);?>"><small>Upgdare</small></a><br /><span class="hidden mdc_help">(If you want to show Sticky Bar, check this.)</span></td>
 												</tr>
 												<tr valign="top">
 													<th scope="row"><label for="mdc_show_delivery_time">Show delivery time</label></th>
