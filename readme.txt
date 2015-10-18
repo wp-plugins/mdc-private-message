@@ -1,5 +1,5 @@
 === MDC Private Message ===
-Contributors: mukto90, medhabidotcom
+Contributors: mukto90
 Donate link: http://nazmulahsan.me/
 Tags: wordpress message, user message, private message, internal message, message send, wp user message, mdc
 Version: 1.0.1
